@@ -114,7 +114,7 @@ python main.py --method orb
 ### Choose a test image
 
 ```bash
-python main.py --method sift --image Cards_2.jpg
+python main.py --method sift --image Cards_1.jpg
 ```
 
 If the template file does not exist, the program automatically runs training first.
@@ -128,5 +128,5 @@ The result is displayed as an annotated image showing (opencv window):
 
 ## Notes
 
-- The default test image is `Cards_2.jpg`.
+- The default test image is `Cards_1.jpg`.
 - The template file is generated automatically as `src/card_templates.npz`.
